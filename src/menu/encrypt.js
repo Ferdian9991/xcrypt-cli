@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { inputDirPath, inputKey } from "./../ui.js";
+import { getCredential, inputDirPath, inputKey } from "./../ui.js";
 import { spawn } from "child_process";
 import path from "path";
 
@@ -26,6 +26,8 @@ export default async () => {
     dirPath,
     "--key",
     key,
+    "--credential",
+    getCredential(),
     "--mode",
     "encrypt",
   ];

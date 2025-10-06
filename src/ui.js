@@ -6,6 +6,7 @@ import { fileURLToPath } from "url";
 import process from "process";
 import inquirer from "inquirer";
 import Fuse from "fuse.js";
+import crypto from "crypto";
 
 // Register autocomplete prompt
 const { default: autocompletePrompt } = await import(
@@ -27,6 +28,40 @@ export const getVersion = () => {
   // Read and parse
   const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf-8"));
   return packageJson.version;
+};
+
+/**
+ * Retrieves the author information from package.json.
+ */
+const getAuthor = () => {
+  // Get __dirname equivalent in ESM
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+
+  // Get package.json path
+  const packageJsonPath = path.resolve(__dirname, "../package.json");
+
+  // Read and parse
+  const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf-8"));
+  return packageJson.author || null;
+};
+
+/**
+ * Generates a hashed credential from the author information.
+ */
+export const getCredential = () => {
+  const author = getAuthor();
+
+  if (!author) return null;
+  return hash(author);
+};
+
+/**
+ * Generates a SHA-256 hash of the given author string.
+ */
+export const hash = (author) => {
+  if (!author) return null;
+  return crypto.createHash("sha256").update(author).digest("hex");
 };
 
 /**
