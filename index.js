@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { cleanUp, drawLogo } from "./src/ui.js";
+import { drawLogo } from "./src/ui.js";
 import encrypt from "./src/menu/encrypt.js";
 import decrypt from "./src/menu/decrypt.js";
 
