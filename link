@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"
+
+echo "Unlinking old global xcrypt-cli (if any)..."
+npm unlink -g xcrypt-cli || true
+
+echo "Linking project globally..."
+npm link
+
+echo "Done! Now you can run 'xcrypt-cli' from anywhere."
+echo "Current PATH: $PATH"
+echo "NPM global bin: $(npm bin -g)"

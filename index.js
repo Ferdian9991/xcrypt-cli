@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer from "inquirer";
 import { drawLogo } from "./src/ui.js";
 import encrypt from "./src/menu/encrypt.js";

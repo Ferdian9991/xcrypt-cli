@@ -4,6 +4,9 @@
   "type": "module",
   "description": "A command-line tool for encrypting and decrypting file",
   "main": "index.js",
+  "bin": {
+    "xcrypt-cli": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
