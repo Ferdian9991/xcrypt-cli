@@ -16,7 +16,9 @@
     "decryption",
     "AES-256-CBC",
     "CLI",
-    "command-line"
+    "command-line",
+    "file-encryption",
+    "file-decryption"
   ],
   "author": "Ferdian9991<ferdisatria15@gmail.com>",
   "license": "MIT",
