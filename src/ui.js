@@ -72,7 +72,7 @@ export const drawLogo = async () => {
   await figlet(
     "X-Crypt",
     {
-      font: "Avatar",
+      font: "Banner3-D",
       horizontalLayout: "default",
       verticalLayout: "default",
       width: 100,
