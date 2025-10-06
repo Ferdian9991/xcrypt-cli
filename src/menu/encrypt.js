@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { inputDirPath, inputKey } from "./../ui.js";
 import { spawn } from "child_process";
 import path from "path";
