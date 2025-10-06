@@ -1,6 +1,6 @@
 {
   "name": "xcrypt-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A command-line tool for encrypting and decrypting file",
   "main": "index.js",
@@ -10,6 +10,10 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferdian9991/xcrypt-cli"
+  },
   "keywords": [
     "xcrypt",
     "encryption",
@@ -18,7 +22,11 @@
     "CLI",
     "command-line",
     "file-encryption",
-    "file-decryption"
+    "file-decryption",
+    "data-protection",
+    "data-security",
+    "password",
+    "cipher"
   ],
   "author": "Ferdian9991<ferdisatria15@gmail.com>",
   "license": "MIT",
