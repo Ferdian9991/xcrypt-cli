@@ -37,7 +37,7 @@ export default async () => {
   await new Promise((resolve, reject) => {
     child.on("close", (code) => {
       if (code === 0) {
-        console.log(chalk.green("Decryption process completed successfully!"));
+        console.log(chalk.green("Encryption process completed successfully!"));
         resolve();
       } else {
         reject(new Error(`xcrypt process exited with code ${code}`));
