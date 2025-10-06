@@ -2,6 +2,7 @@ import chalk from "chalk";
 import { getCredential, inputDirPath, inputKey } from "./../ui.js";
 import { spawn } from "child_process";
 import path from "path";
+import { fileURLToPath } from "url";
 
 /**
  * Handles the decryption process by prompting the user for a file path and key,
@@ -16,8 +17,12 @@ export default async () => {
     "The output results will be saved in the same directory as the original file.\n"
   );
 
+  // Get __dirname in ES module scope
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+
   // Get absolute path to xcrypt.js
-  const xcryptPath = path.resolve("src/xcrypt.cjs");
+  const xcryptPath = path.resolve(__dirname, "../../src/xcrypt.cjs");
 
   // Prepare arguments for the xcrypt process
   const args = [
