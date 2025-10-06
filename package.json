@@ -1,6 +1,6 @@
 {
   "name": "xcrypt-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A command-line tool for encrypting and decrypting file",
   "main": "index.js",
