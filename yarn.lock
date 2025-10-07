@@ -382,9 +382,9 @@ wrap-ansi@^6.2.0:
     strip-ansi "^6.0.0"
 
 xcrypt-core@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/xcrypt-core/-/xcrypt-core-1.0.12.tgz#f72c027fdddcb2ac1504b7f36dfa712d11dfe5ff"
-  integrity sha512-MCyGddsVOCvVgN+2WcZlbu1GDSi9xM3MeeKvG1SpJi8YMXdFCS0BID8sdRbxS8kqCA7XU1+isjEnimQXhG1Hmw==
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/xcrypt-core/-/xcrypt-core-1.0.13.tgz#ae32ceaa1f75b803c3cc094f388f116c0796a5d5"
+  integrity sha512-fFzXre8aZi7Er8fe927/gMvgWfg4yB82jPl7Cb7skOFuVcyoRKN6c4eCwkqZJkk+8nVny8HAmEOs/S6OCB/HLg==
 
 yoctocolors-cjs@^2.1.2:
   version "2.1.3"
