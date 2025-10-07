@@ -38,6 +38,7 @@
     "figlet": "^1.9.3",
     "fuse.js": "^7.1.0",
     "inquirer": "^9.3.8",
-    "inquirer-autocomplete-prompt": "^3.0.1"
+    "inquirer-autocomplete-prompt": "^3.0.1",
+    "xcrypt-core": "^1.0.12"
   }
 }
