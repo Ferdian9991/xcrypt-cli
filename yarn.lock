@@ -86,6 +86,11 @@ cli-cursor@^3.1.0:
   dependencies:
     restore-cursor "^3.1.0"
 
+cli-loaders@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cli-loaders/-/cli-loaders-3.0.0.tgz#abd57de9dcd2c69ef3ce503249ef13e0f9a57f44"
+  integrity sha512-BBVYI5sZ+BviC51hNpPK1RxqLBJEU8uAq5zWSgPQpL2ZJddy8DvSoj//SHLdNg0r/dkpA7NHQ6nYnuM2E9lwAQ==
+
 cli-spinners@^2.5.0:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.9.2.tgz#1773a8f4b9c4d6ac31563df53b3fc1d79462fe41"
@@ -381,10 +386,10 @@ wrap-ansi@^6.2.0:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
 
-xcrypt-core@^1.0.12:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/xcrypt-core/-/xcrypt-core-1.0.13.tgz#ae32ceaa1f75b803c3cc094f388f116c0796a5d5"
-  integrity sha512-fFzXre8aZi7Er8fe927/gMvgWfg4yB82jPl7Cb7skOFuVcyoRKN6c4eCwkqZJkk+8nVny8HAmEOs/S6OCB/HLg==
+xcrypt-core@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/xcrypt-core/-/xcrypt-core-1.0.14.tgz#548999da7bab660c2e6f61290e50bb42f554cc84"
+  integrity sha512-69wXMdB8XuVgcxd3qIX0wsvNZ6besAbAsPLa0f+eCJmpFrcXa2J7LaaFMe/w/kl9H8uSWdzuly2MkvbKmWCWdA==
 
 yoctocolors-cjs@^2.1.2:
   version "2.1.3"
