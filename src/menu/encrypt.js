@@ -1,4 +1,4 @@
-import { circles_5, initLoader } from "cli-loaders";
+import { emojis_2, initLoader } from "cli-loaders";
 import chalk from "chalk";
 import xcrypt from "../xcrypt.js";
 import { getCredential, inputDirPath, inputKey } from "./../ui.js";
@@ -14,7 +14,7 @@ export default async () => {
   console.log("Starting encryption process...\n");
 
   // Initialize the loader
-  initLoader(circles_5);
+  initLoader(emojis_2);
 
   // Encrypt the file using xcrypt
   try {
