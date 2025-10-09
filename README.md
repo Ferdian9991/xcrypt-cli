@@ -2,7 +2,7 @@
 	<img
 		width="600"
 		alt="Xcrypt CLI"
-		src="https://github.com/Ferdian9991/xcrypt-cli/blob/main/xcrypt.png">
+		src="https://github.com/Ferdian9991/xcrypt-cli/blob/main/xcrypt.png" style="border-radius: 8px">
 </h1>
 
 <p align="center">
