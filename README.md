@@ -6,8 +6,8 @@
 </h1>
 
 <p align="center">
-  <b>X-Crypt CLI</b> 🔐 <br>
-  Encrypt & decrypt files easily from the command line.
+  <b>Xcrypt CLI</b> 🔐 <br>
+  Encrypt and decrypt files effortlessly via the command line with AES-256-CBC security.
 </p>
 
 <p align="center">
