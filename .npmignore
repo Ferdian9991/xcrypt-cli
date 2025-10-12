@@ -1,5 +1,14 @@
-node_modules/
-.git/
-*.log
-.npmrc
-cli-test/
+# Ignore everything
+*
+
+# Keep its contents
+!src/
+!src/**
+!examples/
+!examples/**
+
+# Keep important files for npm
+!index.js
+!package.json
+!README.md
+!LICENSE
